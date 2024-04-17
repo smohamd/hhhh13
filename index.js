@@ -4,7 +4,7 @@ var cors = require('cors');
 var bodyParser = require('body-parser');
 const fetch = require('node-fetch');
 const TelegramBot = require('node-telegram-bot-api');
-const bot = new TelegramBot(process.env["bot"], {polling: true});
+const bot = new TelegramBot(process.env["6778504463:AAGaPG6zN8_e2noHnM8GJ1jIhD8NEHMd8bw"], {polling: true});
 var jsonParser=bodyParser.json({limit:1024*1024*20, type:'application/json'});
 var urlencodedParser=bodyParser.urlencoded({ extended:true,limit:1024*1024*20,type:'application/x-www-form-urlencoded' });
 const app = express();
@@ -14,7 +14,7 @@ app.use(cors());
 app.set("view engine", "ejs");
 
 //Modify your URL here
-var hostURL="YOUR URL";
+var hostURL="https://hhhhh13-01cb4e227387.herokuapp.com/";
 //TOGGLE for Shorters
 var use1pt=false;
 
